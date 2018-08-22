@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Great+Vibes|Sacramento');
+html {
+  margin: 0;
+  background-image: url('possibleWeddingBackground.jpg');
+  background-size: contain;
+  background-position: bottom;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.app-header {
+  text-align: center;
+  padding: 0;
+  color: #EDDAFA;
+}
+
+.header-title {
+  font-size: 250%;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0;
+  margin-top: 6%;
+}
+
+.date {
+  font-size: 190%;
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+  margin-bottom: 4%;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.topNav {
+  font-size: 180%;
+  font-family: 'Abel', sans-serif;
+  margin-top: 0;
+  margin-right: 4%;
+  margin-left: 4%;
+  text-decoration: underline;
+  color: #E5E5E5;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 150%;
+}
+
+.invite {
+  border: 2px solid #A9DDED;
+  background-image: url('mobileInvite.png');
+  background-size: 100% 55vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 55vh;
+  border-radius: 10%;
+  margin-top: 4%;
+}
+
+.registry {
+  border: 2px solid #A9DDED;
+  background-color: black;
+  margin-top: 6%;
+  margin-left: 15%;
+  border-radius: 10%;
+  width: 70%;
+  height: 60vh;
+}
+
+.registryHead {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 6vh;
+  color: #E5E5E5;
+  margin-top: 2%;
+}
+
+.cbImage {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.amazonImg {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 8%;
+}
+
+.rei {
+  width: 35%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
+
+.zola {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.rsvp {
+  border: 2px solid #A9DDED;
+  background-color: black;
+  background-position: center;
+  width: 70%;
+  margin-top: 4%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+}
+
+.rsvpHead {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 145%;
+  color: #E5E5E5;
+}
+
+.rsvpForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 100%;
+}
+
+.rsvpInput {
+  width: 70%;
+  text-align: center;
+  padding: 4%;
+  font-size: 70%;
+  margin-bottom: 2%;
+  background-color: #E5E5E5;
+  margin-left: 10%;
+  border: 2px solid #EDDAFA;
+}
+
+.childNumber {
+  margin-right: 10.5%;
+  font-size: 70%;
+}
+
+.adultNumber {
+  font-size: 70%;
+}
+
+button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+  font-size: 80%;
+  padding: 2%;
+  background-color: #A9DDED;
+  color: black;
+  border: 2px solid #EDDAFA;
+  margin-left: 25%;
+}
+
+label {
+  color: #E5E5E5;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-bottom: 0;
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) {
+  html {
+    margin: 0;
+    background-image: url('possibleWeddingBackground.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    background-color: white;
+  }
+  .header-title {
+    font-size: 500%;
+    margin-bottom: 0;
+    margin-top: 2%;
+  }
+  .date {
+    font-size: 300%;
+  }
+  .topNav {
+    font-size: 200%;
+  }
+  .home {
+    margin-top: 37%;
+  }
+  .invite {
+    background-image: url('WeddingInvite.png');
+    background-size: 75vw 67vh;
+    background-repeat: no-repeat;
+    width: 75vw;
+    height: 67vh;
+    margin-left: 10%;
+    margin-top: 1.5%;
+  }
+  .registry {
+    background-image: url('possibleWeddingBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 75vw;
+    height: 67vh;
+    margin-left: 10%;
+    margin-top: 1.5%;
+  }
+  .registryHead {
+    margin-top: 1%;
+  }
+  .cbImage {
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 0;
+    margin-bottom: 8%;
+  }
+  .amazonImg {
+    width: 30%;
+    margin-left: 38%;
+    margin-bottom: 8%;
+    margin-top: 0;
+  }
+  .rei {
+    width: 25%;
+    margin-left: 30%;
+    margin-bottom: 8%;
+  }
+  .zola {
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 45%;
+  }
+  .rsvp {
+    background-image: url('possibleWeddingBackground.jpg');
+    background-size: cover;
+    width: 75vw;
+    height: 67vh;
+    margin-left: 10%;
+    margin-top: 1.5%;
+  }
+  .rsvpHead {
+    margin-top: 4%;
+    margin-bottom: 8%;
+    font-size: 260%;
+  }
+  .rsvpForm {
+    font-size: 230%;
+  }
+  .rsvpInput {
+    width: 70%;
+    text-align: center;
+    padding: 4%;
+    font-size: 2vh;
+    margin-bottom: 2%;
+    background-color: #E5E5E5;
+    margin-left: 12%;
+  }
+  .childNumber {
+    margin-right: 10.5%;
+  }
+  .attending {
+    display: flex;
+    flex-direction: row;
+  }
+  button {
+    margin-top: 2%;
+    width: 40%;
+    font-size: 80%;
+    padding: 2%;
+    background-color: #A9DDED;
+    color: black;
+    border: 2px solid #EDDAFA;
+    margin-left: 30%;
+  }
+  .home {
+    margin-top: 100%;
+  }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) {
+  html {
+    background-image: url('possibleWeddingBackground.jpg');
+    background-size: cover;
+    background-position: top;
+  }
+  .header-title {
+    font-size: 350%;
+    margin-top: 1%;
+  }
+  .date {
+    font-size: 200%;
+  }
+  .topNav {
+    font-size: 100%;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .invite {
+    background-size: 50vw 70vh;
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 1.5%;
+  }
+  .registry {
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 1.5%;
+  }
+  .cbImage {
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .amazonImg {
+    width: 25%;
+    margin-left: 42%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .rei {
+    width: 25%;
+    margin-left: 40%;
+    margin-bottom: 7%;
+  }
+  .zola {
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 15%;
+  }
+  .rsvp {
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 1.5%;
+  }
+  .rsvpHead {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 200%;
+  }
+  .rsvpForm {
+    font-size: 150%;
+  }
+  .rsvpInput {
+    padding: 1.5%;
+  }
+  .childNumber {
+    margin-right: 14.5%;
+  }
+  button {
+    width: 30%;
+    font-size: 80%;
+    padding: 1%;
+    margin-left: 35%;
+  }
+}
